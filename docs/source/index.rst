@@ -11,7 +11,6 @@ Welcome to Jobs Finder's documentation!
    :caption: Contents:
 
    plan.rst
-   titles.rst
 
 
 Indices and tables
