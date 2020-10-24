@@ -117,4 +117,17 @@ criteria that fits my needs, I would like to read not more than 10 jobs per
 day so that I pick the best 2 and I propose.
 
 
+Plan Step by Step
+*****************
+
+#. Gather a data set of job offers from UpWork with the title and descriptions.
+#. Choose a set of words for create the set of possible filters
+#. Analyze the data set by applying the filters and partition the data set.
+#. | Count the encounters by partition, each partition contains the matches
+   | per filter
+#. | Choose the filter that best matches your needs depending on the size of
+   | the resulting partition
+#. | Use the filter to search for jobs automatically and get notified when a
+   | new job offer matches the filter
+
 
