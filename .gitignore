@@ -1,7 +1,7 @@
-compare/data
-database
-example
-static
+/compare/data
+/database
+/example
+/static
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
