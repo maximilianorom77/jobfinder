@@ -7,10 +7,11 @@ Welcome to Jobs Finder's documentation!
 =======================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 20
    :caption: Contents:
 
    plan.rst
+   titles.rst
 
 
 Indices and tables
