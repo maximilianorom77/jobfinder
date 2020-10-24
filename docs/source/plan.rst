@@ -24,8 +24,9 @@ The trick is being specific and choosing a niche, the more specific the search
 the less jobs offers one will read.
 
 The less jobs offers one reads the less time one dedicates to reading, this
-projects aims at minimazing the time spend in reading job offers in popular
-sites like upwork and freelancer and maximizing the hiring rate vs time ratio.
+projects aims at minimazing the time spent in reading job offers in popular
+sites like upwork and freelancer and maximizing the hours changed vs time
+searching ratio.
 
 In other words, if I expend 30 hours a month searching for a job just to get
 10 hours of work charged I have 10/30 = 0.33 ratio of working/searching
