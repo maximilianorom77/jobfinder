@@ -10,6 +10,7 @@ Welcome to Jobs Finder's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   plan.rst
 
 
 Indices and tables
