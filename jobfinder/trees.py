@@ -1,6 +1,7 @@
 """
 The module to define trees
 """
+from jobfinder.jobs import Job
 
 
 class BinaryTree:
@@ -9,14 +10,8 @@ class BinaryTree:
     """
     node = None
 
+    def insert(self, element: Job) -> 'BinaryTree':
+        return self
 
-def new() -> BinaryTree:
-    """
-    Standard binary tree.
-    """
-    tree = BinaryTree()
-    return tree
-
-def insert(tree: BinaryTree, element) -> BinaryTree:
-    tree = BinaryTree()
-    return tree
+    def find(self, element: Job):
+        return True
