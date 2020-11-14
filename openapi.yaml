@@ -23,13 +23,46 @@ paths:
               schema:
                 type: object
                 properties:
+                  title:
+                    description: Job title
+                    type: string
                   description:
                     description: Job description
                     type: string
+                  client:
+                    description: Client
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                      name:
+                        type: string
+                      country:
+                        type: string
+                      timezone:
+                        type: string
+                  bid:
+                    type: object
+                    properties:
+                      minimum:
+                        description: Bid minimum
+                        type: integer
+                      maximum:
+                        description: Bid maximum
+                        type: integer
               example:
+                title: Sr Python Developer in Django
                 description: Looking for a Python Developer
+                client:
+                  id: 123
+                  name: Maximiliano Romay
+                  country: Argentina
+                  timezone: GMT-3
+                bid:
+                  minimum: 100
+                  maximum: 500
 servers:
   - description: Localhost API Server
-    url: http://0.0.0.0:8000/jobfinder
+    url: http://localhost:8000/jobfinder
   - description: SwaggerHub API Auto Mocking
     url: https://virtserver.swaggerhub.com/maximilianorom77/DreamJob/1.0.0
