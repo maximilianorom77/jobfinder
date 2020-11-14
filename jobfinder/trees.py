@@ -10,6 +10,11 @@ class BinaryTree:
     """
     node = None
 
+    def __init__(self, filters):
+        self.left = None
+        self.right = None
+        self.value = None
+
     def insert(self, element: Job) -> 'BinaryTree':
         return self
 
